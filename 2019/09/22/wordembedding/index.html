@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>ybw | Hexo</title>
+  <title>wordembedding | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="dasdadasdsadasassd王者">
+  <meta name="description" content="word embedding简单来说，词嵌入或者分布式向量是将自然语言符号转化为计算机能理解的向量或者矩阵形式的技术。由于要考虑多种因素，比如词的语义（同义词），语料中词与词的关系（上下文），以及向量的维度（复杂度）等。我们希望近义词或者同义词的关系可以足够近  总的来说，word embedding就是一个词的低维向量表示（一般用的维度可以是几十到几千）。有了一个词的向量之后，各种基于向量的计算">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ybw">
-<meta property="og:url" content="http://yoursite.com/2019/09/14/ybw/index.html">
+<meta property="og:title" content="wordembedding">
+<meta property="og:url" content="http://yoursite.com/2019/09/22/wordembedding/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="dasdadasdsadasassd王者">
+<meta property="og:description" content="word embedding简单来说，词嵌入或者分布式向量是将自然语言符号转化为计算机能理解的向量或者矩阵形式的技术。由于要考虑多种因素，比如词的语义（同义词），语料中词与词的关系（上下文），以及向量的维度（复杂度）等。我们希望近义词或者同义词的关系可以足够近  总的来说，word embedding就是一个词的低维向量表示（一般用的维度可以是几十到几千）。有了一个词的向量之后，各种基于向量的计算">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-15T05:24:58.628Z">
+<meta property="og:updated_time" content="2019-09-22T04:30:23.091Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ybw">
-<meta name="twitter:description" content="dasdadasdsadasassd王者">
+<meta name="twitter:title" content="wordembedding">
+<meta name="twitter:description" content="word embedding简单来说，词嵌入或者分布式向量是将自然语言符号转化为计算机能理解的向量或者矩阵形式的技术。由于要考虑多种因素，比如词的语义（同义词），语料中词与词的关系（上下文），以及向量的维度（复杂度）等。我们希望近义词或者同义词的关系可以足够近  总的来说，word embedding就是一个词的低维向量表示（一般用的维度可以是几十到几千）。有了一个词的向量之后，各种基于向量的计算">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -154,27 +154,37 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-ybw" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-wordembedding" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      ybw
+      wordembedding
     </h1>
   
 
         
-        <a href="/2019/09/14/ybw/" class="archive-article-date">
-  	<time datetime="2019-09-14T06:50:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-14</time>
+        <a href="/2019/09/22/wordembedding/" class="archive-article-date">
+  	<time datetime="2019-09-22T03:11:36.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-22</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>dasdadasdsadasassd王者</p>
+        <h1 id="word-embedding"><a href="#word-embedding" class="headerlink" title="word embedding"></a>word embedding</h1><p>简单来说，词嵌入或者分布式向量是将自然语言符号转化为计算机能理解的向量或者矩阵形式的技术。由于要考虑多种因素，比如词的语义（同义词），语料中词与词的关系（上下文），以及向量的维度（复杂度）等。我们希望近义词或者同义词的关系可以足够近</p>
+<blockquote>
+<p>总的来说，word embedding就是一个词的低维向量表示（一般用的维度可以是几十到几千）。有了一个词的向量之后，各种基于向量的计算就可以实施，如用向量之间的相似度来度量词之间的语义相关性。其基于的分布式假设就是出现在相同上下文(context)下的词意思应该相近。所有学习word embedding的方法都是在用数学的方法建模词和context之间的关系。<br>————————————————</p>
+<p>作者：李明磊9527<br>链接：<a href="https://www.zhihu.com/question/32275069/answer/197721342" target="_blank" rel="noopener">https://www.zhihu.com/question/32275069/answer/197721342</a></p>
+</blockquote>
+<h2 id="单词表达"><a href="#单词表达" class="headerlink" title="单词表达"></a>单词表达</h2><h2 id="2-1one-hot"><a href="#2-1one-hot" class="headerlink" title="2.1one-hot"></a>2.1one-hot</h2><p>one-hot是最简单的一种处理方式。</p>
+<h2 id="2-2-Distributed-representatic"><a href="#2-2-Distributed-representatic" class="headerlink" title="2.2 Distributed representatic"></a>2.2 Distributed representatic</h2><p>希望用诸如“语义”，“复数”等维度去表示一个单词</p>
+<h1 id="三-Word2vec"><a href="#三-Word2vec" class="headerlink" title="三  Word2vec"></a>三  Word2vec</h1><p>核心思想就是基于上下文，先用向量代表各个词，然后通过一个预测目标函数学习这些向量的参数</p>
+<h2 id="3-1CBOW"><a href="#3-1CBOW" class="headerlink" title="3.1CBOW"></a>3.1CBOW</h2><p>用输入单词作为周边单词去预测中心单词的方式</p>
+<h2 id="3-2skip-gram"><a href="#3-2skip-gram" class="headerlink" title="3.2skip gram"></a>3.2skip gram</h2><p>用输入单词作为中心单词去预测周边单词的方式</p>
+<h6 id="模型架构："><a href="#模型架构：" class="headerlink" title="## 模型架构："></a>## 模型架构：</h6><p>skip-gram，cbow的模型架构都是一层<strong>单层的神经网络</strong>，如下图所示，需要注意的部分是：<strong>神经网络的参数就是我们最后得到的词向量</strong>，神经网络训练过程就是学习词向量（网络参数）的过程。</p>
 
       
 
@@ -254,7 +264,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/14/ybw/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/09/22/wordembedding/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -268,15 +278,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/09/22/wordembedding/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          wordembedding
-        
-      </div>
-    </a>
   
+    <a href="/2019/09/14/ybw/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">ybw</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
